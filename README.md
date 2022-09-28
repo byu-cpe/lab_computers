@@ -2,5 +2,5 @@
 
 ## apt packages
 ```
-tmux screen wget htop
+tmux screen wget htop minicom
 ```
