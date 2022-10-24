@@ -1,4 +1,4 @@
-Instructions for Ubuntu 22
+1. Install Ubuntu 22
 
 1. Install packages
 ```

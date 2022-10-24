@@ -1,8 +1,14 @@
 # Lab Computer Setup
 
 * [ECEN 330](ecen330.md)
+* [ECEN 427](ecen427.md)
 
-## apt packages
+## Other apt packages
 ```
-tmux screen wget htop minicom
+sudo apt install \
+    tmux \
+    screen \
+    wget \
+    htop \
+    minicom
 ```
