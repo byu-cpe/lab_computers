@@ -11,7 +11,8 @@
         bison \
         audacity \
         vim \
-        emacs
+        emacs \
+        g++-arm-linux-gnueabihf
     ```
 
 1. Install Xilinx Vivado 2020.2
