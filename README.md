@@ -7,6 +7,9 @@
 * [ECEN 426](ecen426.md)
 * [ECEN 427](ecen427.md)
 
+Other non-class related setup needs:
+* [F4PGA(f4pga.md)
+
 ## Other apt packages
 ```
 sudo apt install \
