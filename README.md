@@ -8,7 +8,7 @@
 * [ECEN 427](ecen427.md)
 
 Other non-class related setup needs:
-* [F4PGA(f4pga.md)
+* [F4PGA](f4pga.md)
 
 ## Other apt packages
 ```
