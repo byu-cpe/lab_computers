@@ -12,7 +12,8 @@
         audacity \
         vim \
         emacs \
-        g++-arm-linux-gnueabihf
+        g++-arm-linux-gnueabihf \
+        verilator
     ```
 
 1. Install Xilinx Vivado 2020.2
