@@ -4,7 +4,7 @@
     ```
     sudo apt update
 
-    sudo apt install \
+    sudo apt install -y \
         build-essential \
         qtbase5-dev \
         clang-format-12 \
