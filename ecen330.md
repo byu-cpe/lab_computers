@@ -17,7 +17,9 @@
         openocd \
         python3-dev \
         python3-venv \
-        valgrind
+        valgrind \
+        firefox \
+        cmake
     ```
 
 1. Test your cmake version, and make sure it is at least 3.14.5:
