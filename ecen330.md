@@ -20,6 +20,9 @@
         valgrind \
         firefox \
         cmake
+        
+    sudo snap install \
+        firefox
     ```
 
 1. Test your cmake version, and make sure it is at least 3.14.5:
