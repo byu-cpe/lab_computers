@@ -21,3 +21,11 @@ sudo apt install \
     minicom \
     zsh
 ```
+
+## Permissions to Serial Devices
+
+Add a file: `/etc/udev/rules.d/50-myusb.rules` with contents:
+```
+KERNEL=="ttyACM[0-9]*",MODE="0666"
+KERNEL=="ttyUSB[0-9]*",MODE="0666"
+```
