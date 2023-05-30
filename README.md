@@ -29,3 +29,8 @@ Add a file: `/etc/udev/rules.d/50-myusb.rules` with contents:
 KERNEL=="ttyACM[0-9]*",MODE="0666"
 KERNEL=="ttyUSB[0-9]*",MODE="0666"
 ```
+
+Add these lines as well for SD card imaging permissions:
+ ```
+ KERNEL=="sd*", SUBSYSTEMS=="usb", MODE="0666"
+ ```
