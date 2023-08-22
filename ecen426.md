@@ -6,7 +6,9 @@ sudo apt update
 
 sudo apt install \
     httpie \
-    valgrind
+    valgrind \
+    zsh \
+    tmux
 ```
 
 3. Install VS Code <https://code.visualstudio.com/>
