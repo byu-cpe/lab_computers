@@ -14,6 +14,7 @@ Other non-class related setup needs:
 ## Other apt packages
 ```
 sudo apt install \
+    vim \
     tmux \
     screen \
     wget \
