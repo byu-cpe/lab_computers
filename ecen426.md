@@ -5,6 +5,7 @@
 sudo apt update
 
 sudo apt install \
+    curl \
     httpie \
     valgrind \
     zsh \
