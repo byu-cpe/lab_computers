@@ -20,7 +20,8 @@ sudo apt install \
     wget \
     htop \
     minicom \
-    zsh
+    zsh \
+    python3.10-venv
 ```
 
 ## Permissions to Serial Devices
