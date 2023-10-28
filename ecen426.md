@@ -9,7 +9,8 @@ sudo apt install \
     httpie \
     valgrind \
     zsh \
-    tmux
+    tmux \
+    libssl-dev
 ```
 
 3. Install VS Code <https://code.visualstudio.com/>
