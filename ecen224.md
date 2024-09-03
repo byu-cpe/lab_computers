@@ -10,7 +10,9 @@ sudo apt install \
 
 3. Install VS Code <https://code.visualstudio.com/>
 
-4. Add a file: `/etc/udev/rules.d/50-myusb.rules` with contents:
+4. Add a file: `/etc/udev/rules.d/99-diskaccess.rules` with contents:
 ```
-KERNEL=="sd*", SUBSYSTEMS=="usb", MODE="0666"
+SUBSYSTEM=="block", SUBSYSTEMS=="usb", ATTRS{idVendor}=="*", ATTRS{idProduct}=="*", KERNEL=="sda*", GROUP="diskaccess", MODE="0660"
 ```
+
+5. Create a group named `diskaccess` and ...?
