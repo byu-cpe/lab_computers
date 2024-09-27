@@ -22,7 +22,8 @@ sudo apt install \
     htop \
     minicom \
     zsh \
-    python3.10-venv
+    python3.10-venv \
+    ncdu
 ```
 
 ## Permissions to Serial Devices
