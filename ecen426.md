@@ -10,7 +10,8 @@ sudo apt install \
     valgrind \
     zsh \
     tmux \
-    libssl-dev
+    libssl-dev \
+    mosquitto-clients
 ```
 
 3. Install VS Code <https://code.visualstudio.com/>
