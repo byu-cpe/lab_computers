@@ -13,7 +13,8 @@
         vim \
         emacs \
         g++-arm-linux-gnueabihf \
-        verilator
+        verilator \
+        sshfs
     ```
 
 1. Install Xilinx Vivado 2020.2
