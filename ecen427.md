@@ -17,7 +17,7 @@
         sshfs
     ```
 
-1. Install Xilinx Vivado 2020.2
+1. Install Xilinx Vitis 2022.2
 
 1. Install VS Code <https://code.visualstudio.com/>
 
