@@ -5,7 +5,10 @@
 sudo apt update
 
 sudo apt install \
-  rpi-imager
+  rpi-imager \
+  build-essential \
+  binutils \
+  gdb
 ```
 
 3. Install VS Code <https://code.visualstudio.com/>
