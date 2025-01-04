@@ -12,9 +12,7 @@
         audacity \
         vim \
         emacs \
-        g++-arm-linux-gnueabihf \
-        verilator \
-        sshfs
+        verilator 
     ```
 
 1. Install Xilinx Vitis 2022.2
