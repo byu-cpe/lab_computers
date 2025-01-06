@@ -15,7 +15,5 @@ sudo apt install \
 
 4. Add a file: `/etc/udev/rules.d/99-diskaccess.rules` with contents:
 ```
-SUBSYSTEM=="block", SUBSYSTEMS=="usb", ATTRS{idVendor}=="*", ATTRS{idProduct}=="*", KERNEL=="sda*", GROUP="diskaccess", MODE="0660"
+SUBSYSTEM=="block", SUBSYSTEMS=="usb", ATTRS{idVendor}=="*", ATTRS{idProduct}=="*", KERNEL=="sda*", GROUP="users", MODE="0660"
 ```
-
-5. Create a group named `diskaccess` and ...?
