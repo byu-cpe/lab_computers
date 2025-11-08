@@ -11,7 +11,8 @@ sudo apt install \
     zsh \
     tmux \
     libssl-dev \
-    mosquitto-clients
+    mosquitto-clients \
+    python3-tk
 ```
 
 3. Install VS Code <https://code.visualstudio.com/>
