@@ -5,6 +5,8 @@
 sudo apt update
 
 sudo apt install \
+    git \
+    build-essential \
     curl \
     httpie \
     valgrind \
