@@ -6,6 +6,7 @@
 
     sudo apt install \
         device-tree-compiler \
+        inotify-tools \
         libssl-dev \
         flex \
         bison \
